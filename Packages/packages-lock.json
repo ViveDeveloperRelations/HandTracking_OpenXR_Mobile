@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.htc.upm.wave.openxr": {
-      "version": "1.0.2",
-      "depth": 1,
+      "version": "1.0.4",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.inputsystem": "1.3.0",
@@ -12,11 +12,20 @@
       "url": "https://npm-registry.vive.com"
     },
     "com.htc.upm.wave.openxr.toolkit": {
-      "version": "1.0.2",
+      "version": "1.0.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.htc.upm.wave.openxr": "1.0.2"
+        "com.htc.upm.wave.openxr": "1.0.4"
+      },
+      "url": "https://npm-registry.vive.com"
+    },
+    "com.htc.upm.wave.openxr.toolkit.samples": {
+      "version": "1.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.htc.upm.wave.openxr.toolkit": "1.0.4"
       },
       "url": "https://npm-registry.vive.com"
     },
@@ -125,7 +134,7 @@
     },
     "com.unity.subsystemregistration": {
       "version": "1.1.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0"
@@ -229,7 +238,7 @@
     },
     "com.unity.xr.management": {
       "version": "4.2.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
@@ -242,7 +251,7 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.4.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",

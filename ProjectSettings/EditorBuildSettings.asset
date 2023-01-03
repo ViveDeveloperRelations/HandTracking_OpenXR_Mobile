@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HandTrackingScene.unity
+    guid: 7e267537f4203d240808e0e37d3722d7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0ac5303ebd65f524cb9b9e43ac99b847, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e795cbe7b8132ec4d948b2f970bef446, type: 2}

@@ -24,4 +24,5 @@ public class ShowHands : MonoBehaviour
             temp.GetComponent<JointMovement>().jointNum = i;
         }
     }
+
 }
